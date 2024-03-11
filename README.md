@@ -13,12 +13,12 @@ The main features of this project are:
 
 1. Clone the repository.
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Gouravtagore/Full-Stack-App.git
    ```
 
 2. Navigate into the project directory.
    ```bash
-   cd <project-directory>
+   cd final_project
    ```
 
 3. Install dependencies.
