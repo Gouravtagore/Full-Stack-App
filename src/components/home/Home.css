@@ -1,0 +1,141 @@
+.box1 {
+  padding: 130px 120px 0px 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.b1 {
+  border: none;
+  margin-top: 10px;
+  color: white;
+  font-size: small;
+  background-color: #B898C2;
+}
+
+.bg {
+  height: 200px;
+  width: 230px;
+  margin-top: -60px;
+  margin-left: 290px;
+  background-color: #B898C2;
+  position: absolute;
+  margin-bottom: 150px;
+  z-index: -1;
+}
+
+
+.imgbox img {
+    margin-top: -80px;
+    height: 500px;
+}
+
+@media (max-width:1200px) {
+  .imgbox {
+    display: none;
+  }
+
+}
+
+h5,
+h6 {
+  font-weight: 300;
+}
+
+/*Reviews*/
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.review {
+  color: #1a1a1a;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+#content {
+  max-width: 600px;
+  margin: 25vh auto;
+}
+
+.testimonial blockquote {
+  margin: 10px 10px 0;
+  background: #efefef;
+  padding: 20px 60px;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+  color: #B898C2;
+  font-style: normal;
+}
+
+
+.reviewpicblock img{
+  height: 50px;
+  width: 50px;
+}
+
+.testimonial blockquote:before {
+  top: 0;
+  left: 10px;
+}
+
+.testimonial blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+
+.testimonial div {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #B898C2;
+  margin: 0 0 0 60px;
+}
+
+.testimonial p {
+  margin: 8px 0 0 20px;
+  text-align: left;
+  color: black;
+}
+
+.box3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: scroll;
+  margin-top: 300px;
+  padding: 0;
+  width: 100%;
+  
+}
+
+.box3::-webkit-scrollbar{
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.card1 img{
+  height: 500px;
+  margin-right: 100px;
+}
+
+.card1 img:hover{
+  border: solid 4px black;
+  transition: 500ms;
+}

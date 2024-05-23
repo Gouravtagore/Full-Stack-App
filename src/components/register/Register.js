@@ -68,8 +68,7 @@ function Register() {
 
   return (
     <div className="add-user">
-      <p className="fs-4 text-center">Don't have an account?</p>
-      <p className="fs-4 text-center">Register here</p>
+      <p className="fs-4 text-center">Have an account already? <br /><a href="/login">Login</a></p>
 
       {/* form submission error */}
       {error.length !== 0 && (

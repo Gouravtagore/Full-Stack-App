@@ -7,7 +7,7 @@ function Footer() {
       <div className='main'>
         <div className='sub1'>
           <ul>
-            <li className='fs-6'>Nothing</li>
+            <li className='fs-6'>PawSome</li>
           </ul>
           <ul>
             <li className='fs-6'>Stores near by:UA,Jubliee Hills</li>
@@ -19,7 +19,7 @@ function Footer() {
 
         <div className='sub2'>
           <ul>
-            <li className='fs-6'>Nothing</li>
+            <li className='fs-6'>PawSome</li>
           </ul>
           <ul>
             <li className='fs-6'>Write us @    <button>Email</button></li>

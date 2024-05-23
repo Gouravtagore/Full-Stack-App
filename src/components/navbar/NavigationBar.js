@@ -8,7 +8,7 @@ function NavigationBar() {
     useContext(loginContext);
 
   const activeLink = {
-    color: "#dc3545",
+    color: "#b898c2",
     fontSize: "1.25rem",
     fontWeight: "bold",
   };
@@ -20,7 +20,7 @@ function NavigationBar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-      <a className="navbar-brand fs-1" to="#">Nothing</a>
+      <a className="navbar-brand fs-1" to="#">PawSome</a>
         <button
           className="navbar-toggler"
           type="button"
